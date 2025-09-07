@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet final-Activité de la semaine6-DCLIC</title>
+    <link rel="stylesheet" href="style_general_accueil.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+    <section id="accueil" class="section">
+        <header>
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#à_propos">À propos</a>
+                <a href="#projets">Projets</a>
+                <a href="#competences">Compétences</a>
+                <a href="#contact"> Contact</a>
+            </nav>
+        </header>
+        <h2>CLÉMENCE&nbsp;<span class="enCouleur">BISIMWA</span></h2>
+        <p class="paragraphe0">Je suis <span class="enCouleur">Clémence</span>, Développeuse en devenir passionnée par le web et le design !</p>
+        <img src="accueil.JPG" alt="Développement Web" class="photoaccueil">
+        <a href="#projets">
+            <button class="bouton1">Voir mes projets</button>
+        </a>
+        </section>
+    
+    <section id="à_propos" class="section2">
+        <h3 class="titresection"><center>À propos</center></h3>
+        <div>
+            <p class="paragraphe1">Je m'appelle <span class="enCouleur">Clémence</span>, passionnée par la création des sites web modernes et interactifs. <br> <br>
+            Je suis actuellemnt étudiante en <span class="enCouleur">développement web</span>, et je cherche à améliorer mes Compétences en JavaScript, HTML et CSS. <br> <br>
+            J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.
+            </p>
+            <div class="image">
+                <img src="maphoto.png" alt="Ma photo" class="maphoto">
+            </div>
+        </div>
+        
+        <a href="https://drive.google.com/file/d/1KmsEOdl8j4v4meGpOGetE2LnP4-mYbyV/view?usp=sharing"><button class="bouton2">Télécharger mon CV</button></a>
+    </section>
+
+    <section id="projets" class="section3">
+        <h3 class="titresection"><center>Mes Projets</center></h3>
+
+        <div class="lesprojets">
+            <div class="projet1">
+                <p class="paragraphe4"><br> <br>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <p class="paragraphe5"> #html, #css, #js</p>
+                <button class="bouton3">Voir</button>
+            </div>
+
+            <div class="projet2">
+                <p class="paragraphe4"><br><br>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <p class="paragraphe5"> #html, #css, #js</p>
+                <button class="bouton3">Voir</button>
+            </div>
+
+            <div class="projet3">
+                <p class="paragraphe4"><br><br>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <p class="paragraphe5"> #html, #css, #js</p>
+                <button class="bouton3">Voir</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="section4">
+        <h3><center>Mes Compétences</center></h3>
+        
+        <div class="lescompetences">
+
+            <div class="softskills">
+                <h4>Soft Skills</h4>
+
+                <div class="progression">
+                    <p>Gestion de projet</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="progression">
+                    <p>Résolution de problème</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 60%;"></div>
+                    </div>
+                </div>
+
+                <div class="progression">
+                    <p>Adaptabilité</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hardskills">
+                <h4>Hard Skills</h4>
+
+                <div class="progression">
+                    <p>HTML</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="progression">
+                    <p>CSS</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="progression">
+                    <p>JavaScript</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="progression">
+                    <p>VS Code</p>
+                    <div class="progresser">
+                        <div class="niveau" style="width: 95%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section5">
+        <h3 class="titresectioncontact"><center>Vous avez un <span class="enCouleur">projet en tête?</span> <br>N'hesitez pas à me <span class="enCouleur">contacter</span></center></h3>
+        
+        <form action="" method="get" name="formulaire" id="formulaire" onsubmit="return validerFormulaire();">
+            <fieldset>
+                <div class="noms">
+                    <div class="prenom">
+                    <label for="prenom">Votre prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Ex: John">
+                </div>
+
+                <div class="nom">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Ex: Ramanza">
+                </div>
+                </div>
+
+                <div class="sujet">
+                    <label for="sujet">Votre sujet</label>
+                    <input type="text" id="sujet" name="sujet" placeholder="Ex: Développement d'un site d'usine" class="sujet">
+                </div>
+
+                <div class="message">
+                    <textarea name="message" id="message" rows="20" cols="100" placeholder="Ecrivez votre message ici"></textarea>
+                </div>
+
+                <div class="envoyer">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </fieldset>
+        </form>
+
+        <footer>
+            <p>Designed by <span class="enCouleur"> Clémence Bisimwa</span> with HTML CSS JS</p>
+            <p>Tous droits réservés - 2025</p> 
+        </footer>
+    </section>
+        
+</body>
+</html>    
